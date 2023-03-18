@@ -1,0 +1,161 @@
+.box1{
+    background-image: linear-gradient(to right, red, green, yellow);
+    padding:0px;
+    margin:0px ;
+    border: none;
+    font-size: small;
+    font-weight: bolder;
+    border-radius: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.ullist{
+    color: black;
+    background-color:rgba(58, 131, 159, 0.467);
+    font-size: medium;
+    padding: 3px;
+    margin: 0px;
+    text-align: center;
+    border:4px solid red ;
+    border-radius: 8px;
+    width: 50%;
+    height: 8%;
+    position: relative;
+    left: 25%; 
+}
+.lorembox{
+    color: black;
+    background-color: aqua;
+    font-weight:bold;
+    border: 4px solid green;
+    border-radius: 8px;
+    margin: 0px;
+    padding: 0px;
+    width: 30%;
+    height: 10%;
+    position: relative;
+}
+.box2{
+    background-color:rgba(32, 207, 178, 0.537);
+    padding: 3px;
+    margin: 0px;
+    border:2px solid red ;
+    border-radius: 15px;
+    width: 100%;
+    height: 170px;
+}
+.box3{
+    background-image: linear-gradient(to right, red, yellow , red);
+    padding:0px;
+    margin:0px ;
+    border: none;
+    font-size: small;
+    font-weight: bolder;
+    border-radius: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.redial{
+   background-image:radial-gradient(blue, rgba(17, 190, 104, 0.91));
+   height: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid green;
+}
+.scorebox{
+    color: red;
+    background-color: yellow;
+    padding: 0px 30px 0px 30px;
+    margin: 0px 80px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 7px;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 170px;
+    height: 140px;
+    text-align: center;
+}
+.maingridbox{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 449px);
+  gap: 20px;
+  grid-auto-rows: 40px 70px 130px;
+  background-color: white;
+  width: 100%;
+  border: 2px solid gray;
+}
+.grid1{
+    grid-column: 1/5;
+    text-align: center;
+    background-color:red;
+    color: white;
+}
+.grid2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color:greenyellow ;
+    text-align: center;
+    font-weight:bold ;
+    color: white;
+}
+.grid3{
+     grid-column: 2/3;
+     grid-row: 2/3;
+     color: white;
+     background-color: dodgerblue;
+     font-weight: bolder;
+}
+.grid4{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(107,107,247);
+
+}
+.grid5{
+       color: white;
+       background-color: orange;
+       grid-column: 1/4;
+       grid-row: 3/4;
+       font-weight: bold;
+}
+.grid6{ 
+       color: white;
+       background-color: black;
+       text-decoration: underline;
+       grid-column: 4/5;
+       grid-row: 2/4;
+}
+.grid7{ 
+    color: black;
+    background-color: aqua;
+    grid-column: 1/5;
+    grid-row: 4/5;
+    font-weight: bold;
+    text-align: center;
+}
+ .one{
+    position: absolute;
+    left: 20px;
+}
+.two{
+    position: absolute;
+    top: 190px;
+    right: 20px;
+}
+.three{
+    position: absolute;
+    left: 530px;
+    top: 190px;
+}
+.four{
+    position: absolute;
+    top: 270px;
+    left:530px ;
+}
